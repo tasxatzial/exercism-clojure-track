@@ -12,7 +12,7 @@
       "slug": "editors",
       "path": "docs/EDITORS.md",
       "title": "Editor integration",
-      "blurb": "Commonly used editors for writing Clojure"
+      "blurb": "Commonly used editors for writing Clojure on your own machine"
     },
     {
       "uuid": "1c1e43aa-cbf4-41ff-9470-8367b90b5377",
@@ -20,6 +20,13 @@
       "path": "docs/TESTS.md",
       "title": "Testing on the Clojure track",
       "blurb": "Learn how to test your Clojure exercises on Exercism"
+    },
+    {
+      "uuid": "aecb5173-e078-440d-9b30-465f5e6c905a",
+      "slug": "submit",
+      "path": "docs/Submit.md",
+      "title": "Submit your solutions",
+      "blurb": "Learn how to upload and submit your solutions on Exercism"
     },
     {
       "uuid": "e071077c-e1c3-4887-af05-43fb41fc7c87",

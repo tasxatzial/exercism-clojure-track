@@ -1,12 +1,14 @@
 # Learning
 
-Exercism provides exercises and feedback but can be difficult to jump into for those learning Clojure for the first time. The following resources can help you get started.
+Exercism provides exercises and feedback but can be difficult to jump into for those learning Clojure for the first time.
+The following resources can help you get started.
 
 ## References
 
 - [Clojure.org](http://clojure.org) The official language website.
 - [ClojureDocs](https://clojuredocs.org) Documentation and community-driven examples repository.
 - [Clojure-doc](https://clojure-doc.org) Community-driven documentation.
+- [Clojure style guide](https://guide.clojure.style) Best practices for real-world Clojure programming.
 
 ## Exercises
 
@@ -17,4 +19,4 @@ Exercism provides exercises and feedback but can be difficult to jump into for t
 
 - [Clojure for the Brave and True](http://www.braveclojure.com) A free book by Daniel Higginbotham
 - [The Joy of Clojure](https://www.manning.com/books/the-joy-of-clojure-second-edition) by Michael Fogus and Chris Houser
-- [Programming Clojure](https://pragprog.com/titles/shcloj3/programming-clojure-third-edition/) by Alex Miller
+- [Programming Clojure](https://pragprog.com/titles/shcloj3/programming-clojure-third-edition/) by Alex Miller with Stuart Halloway and Aaron Bedra

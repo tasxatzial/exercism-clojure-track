@@ -1,6 +1,6 @@
 # Submit
 
-If you're working locally, you should use the [Exercism CLI](https://exercism.org/docs/using/solving-exercises/working-locally) to upload and submit your solution so that it appears on the Exercism website.
+if you're working locally, you should use the [Exercism CLI](https://exercism.org/docs/using/solving-exercises/working-locally) to upload and submit your solution so that it appears on the Exercism website.
 
 As an example, for the `bob` exercise, switch to the its root directory from the command line and type:
 
@@ -13,11 +13,23 @@ View it at:
 https://exercism.org/tracks/clojure/exercises/bob
 ```
 
+~~~~exercism/note
+Submitting via the Exercism CLI allows you to submit an incomplete solution, which in turn unlocks community solutions and lets you request help from a mentor.
+However, if you're submitting via the online editor, your solution must pass all tests before you can do either.
+~~~~
+
 ## It works locally — so why is it failing online?
 
-The two tools mentioned previously — Clojure CLI and Leiningen — run full JVM Clojure, giving access to the entire language and ecosystem, including all Java interop and dynamic classloading.
+When working locally, a solution that passes all tests using Clojure CLI or Leiningen may sometimes fail after submission in the online editor.
+This can happen if there's a temporary issue with Exercism's infrastructure.
+In that case, simply try rerunning the tests in the online editor later.
 
-Exercism, on the other hand, uses [Babashka](https://babashka.org/) as its test runner.
+However, another common reason involves differences in how tests are executed locally versus online.
+The tools mentioned above — Clojure CLI and Leiningen — run full JVM Clojure, providing access to the entire language and ecosystem, including Java interop and dynamic class loading.
+
+### Babashka
+
+Exercism, on the other hand, uses [Babashka](https://babashka.org) as its test runner.
 Babashka, is a lightweight and fast Clojure interpreter built on GraalVM and it supports only a subset of Clojure and libraries.
 
 As a result, code that runs fine with Clojure CLI or Leiningen may not work in Babashka — especially if it relies on unsupported features or libraries.

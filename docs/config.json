@@ -8,27 +8,6 @@
       "blurb": "Learn how to install Clojure locally to solve Exercism's exercises on your own machine"
     },
     {
-      "uuid": "ee67597a-90da-4790-9e7a-2d198404bd6b",
-      "slug": "editors",
-      "path": "docs/EDITORS.md",
-      "title": "Editor integration",
-      "blurb": "Commonly used editors for writing Clojure on your own machine"
-    },
-    {
-      "uuid": "1c1e43aa-cbf4-41ff-9470-8367b90b5377",
-      "slug": "tests",
-      "path": "docs/TESTS.md",
-      "title": "Testing on the Clojure track",
-      "blurb": "Learn how to test your Clojure exercises on Exercism"
-    },
-    {
-      "uuid": "aecb5173-e078-440d-9b30-465f5e6c905a",
-      "slug": "submit",
-      "path": "docs/Submit.md",
-      "title": "Submit your solutions",
-      "blurb": "Learn how to upload and submit your solutions on Exercism"
-    },
-    {
       "uuid": "e071077c-e1c3-4887-af05-43fb41fc7c87",
       "slug": "learning",
       "path": "docs/LEARNING.md",
@@ -41,6 +20,34 @@
       "path": "docs/RESOURCES.md",
       "title": "Useful Clojure resources",
       "blurb": "A collection of useful resources to help you master Clojure"
+    },
+    {
+      "uuid": "ee67597a-90da-4790-9e7a-2d198404bd6b",
+      "slug": "editors",
+      "path": "docs/EDITORS.md",
+      "title": "Editor integration",
+      "blurb": "Commonly used editors for writing Clojure"
+    },
+    {
+      "uuid": "5ffde03b-352b-4d69-8537-97e4bdcd13cc",
+      "slug": "solving",
+      "path": "docs/SOLVING.md",
+      "title": "Solving exercises",
+      "blurb": "Learn about exercise requirements"
+    },
+    {
+      "uuid": "1c1e43aa-cbf4-41ff-9470-8367b90b5377",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the Clojure track",
+      "blurb": "Learn how to test your Clojure exercises on Exercism"
+    },
+    {
+      "uuid": "aecb5173-e078-440d-9b30-465f5e6c905a",
+      "slug": "submit",
+      "path": "docs/SUBMIT.md",
+      "title": "Submit your solutions",
+      "blurb": "Learn how to upload and submit your solutions on Exercism"
     },
     {
       "uuid": "b091add0-0047-42ad-ae0c-adeebf984365",
